@@ -22,6 +22,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+
+document.getElementById('item2').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevents the default action (navigating to the URL)
+  alert("You should log in first"); // Shows the alert message
+});
+
+document.getElementById('item3').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevents the default action (navigating to the URL)
+  alert("You should log in first"); // Shows the alert message
+});
+
+
+
 // automatic slider
 
 var counter = 1;
@@ -33,3 +47,5 @@ setInterval(function(){
   }
 }, 3000)
   
+
+
