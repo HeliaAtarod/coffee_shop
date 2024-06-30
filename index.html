@@ -20,12 +20,22 @@
             ><i class="fa fa-bars"></i> Menu</a
           >
           <div class="dropdown" id="menu-dropdown">
-            <a href="#item1" class="dropdown-item">Coffee</a>
-            <a href="#item2" class="dropdown-item"> Tea </a>
-            <a href="#item3" class="dropdown-item">Bakery </a>
-            <a href="#item4" class="dropdown-item">Snacks</a>
+            <a href="product_page.html" class="dropdown-item"
+            onclick="selectedCategory(1)"
+              >Coffee</a
+            >
+            <a href="product_page.html" class="dropdown-item"
+            onclick="selectedCategory(2)">Tea</a>
+            <a href="product_page.html" class="dropdown-item"
+            onclick="selectedCategory(3)"
+              >Pastries</a
+            >
+            <a href="product_page.html" class="dropdown-item"
+            onclick="selectedCategory(4)"
+              >Snacks</a
+            >
           </div>
-          <a href="#records" class="nav-item" id="item2" 
+          <a href="#records" class="nav-item" id="item2"
             ><i class="fas fa-receipt"></i> Shopping Records</a
           >
           <a href="#cart" class="nav-item" id="item3"
@@ -280,80 +290,76 @@
               </div>
             </div>
 
-              <div class="item cno10">
-                <div class="img-div">
-                  <div class="image Ino10"></div>
-                </div>
-  
-                <div class="item-detail">
-                  <h3>Matcha Latte</h3>
-                  <h4>₹230/-</h4>
-                </div>
-  
-                <div class="quantity">
-                  <i class="ri-indeterminate-circle-line"></i>
-                  <div class="box-space">0</div>
-                  <i class="ri-add-circle-line"></i>
-                </div>
-  
-                <div class="menu-option">
-                  <button type="button" class="menu-btn1">Add to cart</button>
-                  <button type="button" class="menu-btn2">Buy now</button>
-                </div>
+            <div class="item cno10">
+              <div class="img-div">
+                <div class="image Ino10"></div>
+              </div>
 
+              <div class="item-detail">
+                <h3>Matcha Latte</h3>
+                <h4>₹230/-</h4>
               </div>
-              
-              <div class="item cno11">
-                <div class="img-div">
-                  <div class="image Ino11"></div>
-                </div>
-  
-                <div class="item-detail">
-                  <h3>Black Coffee</h3>
-                  <h4>₹75/-</h4>
-                </div>
-  
-                <div class="quantity">
-                  <i class="ri-indeterminate-circle-line"></i>
-                  <div class="box-space">0</div>
-                  <i class="ri-add-circle-line"></i>
-                </div>
-  
-                <div class="menu-option">
-                  <button type="button" class="menu-btn1">Add to cart</button>
-                  <button type="button" class="menu-btn2">Buy now</button>
-                </div>
-              </div>
-  
-              <div class="item cno12">
-                <div class="img-div">
-                  <div class="image Ino12"></div>
-                </div>
-  
-                <div class="item-detail">
-                  <h3>Espresso</h3>
-                  <h4>₹80/-</h4>
-                </div>
-  
-                <div class="quantity">
-                  <i class="ri-indeterminate-circle-line"></i>
-                  <div class="box-space">0</div>
-                  <i class="ri-add-circle-line"></i>
-                </div>
-  
-                <div class="menu-option">
-                  <button type="button" class="menu-btn1">Add to cart</button>
-                  <button type="button" class="menu-btn2">Buy now</button>
-                </div>
-              </div>
-                
 
-            
+              <div class="quantity">
+                <i class="ri-indeterminate-circle-line"></i>
+                <div class="box-space">0</div>
+                <i class="ri-add-circle-line"></i>
+              </div>
+
+              <div class="menu-option">
+                <button type="button" class="menu-btn1">Add to cart</button>
+                <button type="button" class="menu-btn2">Buy now</button>
+              </div>
+            </div>
+
+            <div class="item cno11">
+              <div class="img-div">
+                <div class="image Ino11"></div>
+              </div>
+
+              <div class="item-detail">
+                <h3>Black Coffee</h3>
+                <h4>₹75/-</h4>
+              </div>
+
+              <div class="quantity">
+                <i class="ri-indeterminate-circle-line"></i>
+                <div class="box-space">0</div>
+                <i class="ri-add-circle-line"></i>
+              </div>
+
+              <div class="menu-option">
+                <button type="button" class="menu-btn1">Add to cart</button>
+                <button type="button" class="menu-btn2">Buy now</button>
+              </div>
+            </div>
+
+            <div class="item cno12">
+              <div class="img-div">
+                <div class="image Ino12"></div>
+              </div>
+
+              <div class="item-detail">
+                <h3>Espresso</h3>
+                <h4>₹80/-</h4>
+              </div>
+
+              <div class="quantity">
+                <i class="ri-indeterminate-circle-line"></i>
+                <div class="box-space">0</div>
+                <i class="ri-add-circle-line"></i>
+              </div>
+
+              <div class="menu-option">
+                <button type="button" class="menu-btn1">Add to cart</button>
+                <button type="button" class="menu-btn2">Buy now</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </article>
   </body>
-
+  <script src="js/filter.js"></script>
   <script src="js/script.js"></script>
 </html>
