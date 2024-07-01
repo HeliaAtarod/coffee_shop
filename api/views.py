@@ -75,3 +75,9 @@ class OTPVerificationView(generics.CreateAPIView):
                 return Response({"message": "OTP verification failed."}, status=status.HTTP_400_BAD_REQUEST)
         except User.DoesNotExist:
             return Response({"message": "User not found."}, status=status.HTTP_400_BAD_REQUEST)
+
+
+class AdminCategoryViewSet(viewsets.ModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+    permission_classes = [IsAdminUser]
